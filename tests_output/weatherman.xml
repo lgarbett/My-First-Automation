@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="7">
+
+  <testsuite name="weatherman"
+    errors="1" failures="0" hostname="" id="" package="weatherman" skipped="6"
+    tests="7" time="0.01400" timestamp="Mon, 19 Nov 2018 04:15:07 GMT">
+  
+    <testcase name="Search By Zip: WD-7" classname="weatherman" time="0.01400" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Weatherman / Search By Zip: WD-7]:
+
+  ReferenceError: weatherman is not defined
+    at Object.Search By Zip: WD-7 (C:\Users\Lyndsay\Documents\Testing-Resources\my-first-automation\tests\weatherman.js:14:9)
+    at Module.call (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Search By City: WD-8" classname="weatherman">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Invalid Search: WD-9" classname="weatherman">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check Results Card" classname="weatherman">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check Invalid Zip Code" classname="weatherman">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check Invalid City/Location" classname="weatherman">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Checking Titles/Text Values" classname="weatherman">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

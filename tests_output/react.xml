@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="react"
+    errors="1" failures="0" hostname="" id="" package="react" skipped="0"
+    tests="1" time="0.006000" timestamp="Sun, 21 Oct 2018 05:01:26 GMT">
+  
+    <testcase name="Odds and Evens" classname="react" time="0.006000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [React / Odds and Evens]:
+
+  TypeError: Cannot read property &#39;element&#39; of undefined
+    at Object.Odds and Evens (C:\Users\Lyndsay\Documents\Testing-Resources\my-first-automation\tests\react.js:13:15)
+    at Module.call (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="variablePractice"
+    errors="0" failures="0" hostname="" id="" package="variablePractice" skipped="0"
+    tests="1" time="25.09" timestamp="Sat, 10 Nov 2018 04:56:17 GMT">
+  
+    <testcase name="Search for an item" classname="variablePractice" time="25.09" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

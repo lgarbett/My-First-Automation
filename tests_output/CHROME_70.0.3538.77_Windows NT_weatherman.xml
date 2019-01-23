@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="weatherman"
+    errors="0" failures="0" hostname="" id="" package="weatherman" skipped="0"
+    tests="7" time="7.831" timestamp="Mon, 12 Nov 2018 00:45:09 GMT">
+  
+    <testcase name="Search By Zip: WD-7" classname="weatherman" time="5.831" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search By City: WD-8" classname="weatherman" time="0.8550" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Invalid Search: WD-9" classname="weatherman" time="0.8440" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check Results Card" classname="weatherman" time="0.1190" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Check Invalid Zip Code" classname="weatherman" time="0.05900" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Check Invalid City/Location" classname="weatherman" time="0.05700" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Checking Titles/Text Values" classname="weatherman" time="0.06600" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

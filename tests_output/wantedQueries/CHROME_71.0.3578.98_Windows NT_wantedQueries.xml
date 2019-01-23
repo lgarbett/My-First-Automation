@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="wantedQueries.wantedQueries"
+    errors="0" failures="0" hostname="" id="" package="wantedQueries" skipped="0"
+    tests="8" time="19.75" timestamp="Thu, 03 Jan 2019 05:40:04 GMT">
+  
+    <testcase name="Submit a successful entry QOLG-79 &amp; QOLG-80" classname="wantedQueries.wantedQueries" time="6.110" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Invalid Character Lengths Functionality QOLG-74" classname="wantedQueries.wantedQueries" time="1.597" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Invalid Characters Functionality QOLG-75" classname="wantedQueries.wantedQueries" time="1.663" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Require all fields QOLG-77" classname="wantedQueries.wantedQueries" time="1.525" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Require all DL fields QOLG-78" classname="wantedQueries.wantedQueries" time="2.867" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Error if not all DL fields have data QOLG-78" classname="wantedQueries.wantedQueries" time="1.762" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Modify existing entries QOLG-90" classname="wantedQueries.wantedQueries" time="2.129" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Cancel existing entries QOLG-91" classname="wantedQueries.wantedQueries" time="2.100" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="calculator"
+    errors="0" failures="0" hostname="" id="" package="calculator" skipped="0"
+    tests="2" time="6.192" timestamp="Sun, 21 Oct 2018 03:37:56 GMT">
+  
+    <testcase name="Check button text" classname="calculator" time="5.858" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2 + 2 = 4" classname="calculator" time="0.3340" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

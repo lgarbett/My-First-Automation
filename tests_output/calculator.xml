@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="calculator"
+    errors="1" failures="0" hostname="" id="" package="calculator" skipped="1"
+    tests="2" time="0.003000" timestamp="Thu, 18 Oct 2018 04:48:14 GMT">
+  
+    <testcase name="Check button text" classname="calculator" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Calculator / Check button text]:
+
+  ReferenceError: expect is not defined
+    at Object.Check button text (C:\Users\Lyndsay\Documents\Testing-Resources\my-first-automation\tests\calculator.js:12:9)
+    at Module.call (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="2 + 2 = 4" classname="calculator">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

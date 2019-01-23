@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="methodUse"
+    errors="0" failures="0" hostname="" id="" package="methodUse" skipped="0"
+    tests="4" time="25.51" timestamp="Wed, 14 Nov 2018 03:30:40 GMT">
+  
+    <testcase name="check addition" classname="methodUse" time="17.82" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="check subtraction" classname="methodUse" time="1.915" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="check division" classname="methodUse" time="4.118" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="check multiplication" classname="methodUse" time="1.655" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

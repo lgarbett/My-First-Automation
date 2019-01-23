@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="8">
+
+  <testsuite name="wantedQueries.wantedQueries"
+    errors="1" failures="0" hostname="" id="" package="wantedQueries" skipped="7"
+    tests="8" time="0.05500" timestamp="Wed, 09 Jan 2019 20:41:50 GMT">
+  
+    <testcase name="Submit a successful entry QOLG-79 &amp; QOLG-80" classname="wantedQueries.wantedQueries" time="0.05500" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Wanted Queries / Wanted Queries / Submit a successful entry QOLG-79 &amp; QOLG-80]:
+
+  TypeError: Cannot read property &#39;expect&#39; of undefined
+    at Object.Submit a successful entry QOLG-79 &amp; QOLG-80 (C:\Users\Lyndsay\Documents\Testing-Resources\my-first-automation\tests\wantedQueries\wantedQueries.js:25:9)
+    at Module.call (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Lyndsay\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Invalid Character Lengths Functionality QOLG-74" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Invalid Characters Functionality QOLG-75" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Require all fields QOLG-77" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Require all DL fields QOLG-78" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Error if not all DL fields have data QOLG-78" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modify existing entries QOLG-90" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Cancel existing entries QOLG-91" classname="wantedQueries.wantedQueries">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
